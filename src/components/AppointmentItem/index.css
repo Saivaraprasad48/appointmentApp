@@ -1,0 +1,28 @@
+.item-container {
+  list-style: none;
+  border: 2px solid grey;
+  padding: 0px 20px 0px 20px;
+  border-radius: 20px;
+  margin: 10px;
+  width: 250px;
+}
+.img-card {
+  height: 20px;
+  width: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.item-title {
+  display: inline;
+  font-family: 'Roboto';
+  color: #171f46;
+}
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.item-date {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
