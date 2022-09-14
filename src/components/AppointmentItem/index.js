@@ -15,7 +15,7 @@ const AppointmentItem = props => {
     <li className="item-container">
       <div className="head-container">
         <h1 className="item-title"> {title} </h1>
-        <button type="button" onClick={handleClick}>
+        <button type="button" className="img-btn" onClick={handleClick}>
           <img src={url} className="img-card" alt="star" />
         </button>
       </div>

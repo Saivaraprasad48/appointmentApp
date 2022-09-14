@@ -66,7 +66,7 @@ class Appointments extends Component {
   }
 
   render() {
-    const {isFilterActive} = this.state
+    const {isFilterActive, title, date} = this.state
     const getUpdatedDataList = this.getFilteredAppointmentsList()
     const styleStarred = isFilterActive ? 'active' : ' '
 
@@ -87,6 +87,7 @@ class Appointments extends Component {
                 placeholder="Title"
                 className="title-input "
                 onChange={this.setTitle}
+                value={title}
               />
               <br />
               <label htmlFor="date" className="label">
@@ -99,6 +100,7 @@ class Appointments extends Component {
                 id="date"
                 type="date"
                 className="title-input pointer"
+                Value={date}
               />
               <br />
               <button type="button" className="btn" onClick={this.triggerBtn}>

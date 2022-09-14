@@ -9,8 +9,12 @@
 .img-card {
   height: 20px;
   width: 20px;
-  margin-top: 30px;
+  margin-top: 10px;
   cursor: pointer;
+}
+.img-btn {
+  border: none;
+  background-color: transparent;
 }
 .item-title {
   display: inline;
